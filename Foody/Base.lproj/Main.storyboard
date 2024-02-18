@@ -1,24 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Foody" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hamburger" translatesAutoresizingMaskIntoConstraints="NO" id="gVt-9A-Cfo">
+                                <rect key="frame" x="20" y="208" width="374" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="T4M-pU-D4i"/>
+                                    <constraint firstAttribute="height" constant="200" id="lQs-a0-EKM"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jhf-nS-VAI">
+                                <rect key="frame" x="20" y="416" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" textContentType="username"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WUU-KA-bce">
+                                <rect key="frame" x="20" y="458" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                <connections>
+                                    <action selector="editingDidEndOnExit:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="bQO-4d-hdi"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Og-3p-n6X">
+                                <rect key="frame" x="172" y="500" width="70.5" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login!"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WUU-KA-bce" firstAttribute="top" secondItem="jhf-nS-VAI" secondAttribute="bottom" constant="8" id="1RI-Xz-xWQ"/>
+                            <constraint firstItem="jhf-nS-VAI" firstAttribute="top" secondItem="gVt-9A-Cfo" secondAttribute="bottom" constant="8" id="6MN-c9-NrW"/>
+                            <constraint firstItem="8Og-3p-n6X" firstAttribute="top" secondItem="WUU-KA-bce" secondAttribute="bottom" constant="8" id="Edy-VB-Tty"/>
+                            <constraint firstItem="WUU-KA-bce" firstAttribute="width" secondItem="jhf-nS-VAI" secondAttribute="width" id="GFH-7O-ESU"/>
+                            <constraint firstItem="gVt-9A-Cfo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="T5I-HG-c1F">
+                                <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                            </constraint>
+                            <constraint firstItem="gVt-9A-Cfo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c3X-qW-Rdq"/>
+                            <constraint firstItem="8Og-3p-n6X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dJU-VX-S88"/>
+                            <constraint firstItem="8Og-3p-n6X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j3C-Er-Ne8"/>
+                            <constraint firstItem="jhf-nS-VAI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jA3-EG-KNl"/>
+                            <constraint firstItem="jhf-nS-VAI" firstAttribute="width" secondItem="gVt-9A-Cfo" secondAttribute="width" id="nPC-Wg-efg"/>
+                            <constraint firstItem="WUU-KA-bce" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pBf-Z4-qef"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ff3-sm-Xrz"/>
+                    <connections>
+                        <outlet property="imageViewTopConstraint" destination="T5I-HG-c1F" id="jUE-2X-31M"/>
+                        <outlet property="passwordTextField" destination="WUU-KA-bce" id="qzP-hb-3cD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="888.40579710144937" y="3.3482142857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hamburger" width="1080" height="718"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

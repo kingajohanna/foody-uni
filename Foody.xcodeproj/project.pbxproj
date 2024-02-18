@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		9E9DA5872B82896000387CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5862B82896000387CED /* AppDelegate.swift */; };
 		9E9DA5892B82896000387CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5882B82896000387CED /* SceneDelegate.swift */; };
-		9E9DA58B2B82896000387CED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA58A2B82896000387CED /* ViewController.swift */; };
 		9E9DA58E2B82896000387CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DA58C2B82896000387CED /* Main.storyboard */; };
 		9E9DA5902B82896100387CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DA58F2B82896100387CED /* Assets.xcassets */; };
 		9E9DA5932B82896100387CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DA5912B82896100387CED /* LaunchScreen.storyboard */; };
+		9E9DA59B2B82907E00387CED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA59A2B82907E00387CED /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E9DA5832B82896000387CED /* Foody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9DA5862B82896000387CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E9DA5882B82896000387CED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E9DA58A2B82896000387CED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E9DA58D2B82896000387CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E9DA58F2B82896100387CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E9DA5922B82896100387CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E9DA5942B82896100387CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9DA59A2B82907E00387CED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +58,11 @@
 			children = (
 				9E9DA5862B82896000387CED /* AppDelegate.swift */,
 				9E9DA5882B82896000387CED /* SceneDelegate.swift */,
-				9E9DA58A2B82896000387CED /* ViewController.swift */,
 				9E9DA58C2B82896000387CED /* Main.storyboard */,
 				9E9DA58F2B82896100387CED /* Assets.xcassets */,
 				9E9DA5912B82896100387CED /* LaunchScreen.storyboard */,
 				9E9DA5942B82896100387CED /* Info.plist */,
+				9E9DA59A2B82907E00387CED /* LoginViewController.swift */,
 			);
 			path = Foody;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E9DA58B2B82896000387CED /* ViewController.swift in Sources */,
+				9E9DA59B2B82907E00387CED /* LoginViewController.swift in Sources */,
 				9E9DA5872B82896000387CED /* AppDelegate.swift in Sources */,
 				9E9DA5892B82896000387CED /* SceneDelegate.swift in Sources */,
 			);
