@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Bason",
+    "imageName": "basonandcollardgreens",
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. 🍽"
+  },
+  {
+    "title": "Beef with Vegetables",
+    "imageName": "beefwvegetables",
+    "details": "Duis sit amet justo interdum, auctor justo a, molestie odio. 🥩"
+  },
+  {
+    "title": "Salmon",
+    "imageName": "brownsalmonfilletwsalad",
+    "details": "Sed suscipit luctus fermentum. Sed nec vulputate magna, vel tincidunt turpis. 🐟"
+  },
+  {
+    "title": "Burrito",
+    "imageName": "burritowraps",
+    "details": "Phasellus sollicitudin eros nisi, non tempor lorem tempor nec. 🌯"
+  },
+  {
+    "title": "Caprese Salad",
+    "imageName": "capresesalad",
+    "details": "Sed sed eros ac leo dictum pellentesque. 🥗"
+  },
+  {
+    "title": "Chicken Wings",
+    "imageName": "chickenwings",
+    "details": "Donec pellentesque maximus leo, eget convallis odio egestas commodo. 🐓"
+  },
+  {
+    "title": "Fish and Chips",
+    "imageName": "fishandchips",
+    "details": "In velit lectus, fringilla at ligula non, maximus tempus massa. 🐠🍟"
+  },
+  {
+    "title": "Goulash",
+    "imageName": "goulash",
+    "details": "In pharetra libero at dapibus gravida. 🥣"
+  },
+  {
+    "title": "Italian Bruschetta",
+    "imageName": "italianbruschettawtomato",
+    "details": "Duis imperdiet, lectus sed sodales dignissim, orci justo scelerisque ex, sit amet tincidunt enim mauris ac odio. 🇮🇹"
+  },
+  {
+    "title": "Meatballs Filled with Cheese",
+    "imageName": "meatballsfilledwcheese",
+    "details": "Donec metus purus, tempor sit amet sem at, scelerisque viverra ex. Donec ut lobortis velit. 🧀"
+  },
+  {
+    "title": "Mexican Lasagne",
+    "imageName": "mexicanlasagnewithparsley",
+    "details": "Sed non arcu augue. Nunc luctus lorem sed tortor auctor pulvinar. 🇲🇽"
+  },
+  {
+    "title": "Pancake with Raspberries",
+    "imageName": "pancakewraspberries",
+    "details": "In malesuada velit magna, eget mollis libero condimentum a. 🥞"
+  },
+  {
+    "title": "Seafood",
+    "imageName": "seafoodkebabs",
+    "details": "Pellentesque eget pellentesque massa. Praesent eu pellentesque arcu. 🌊"
+  },
+  {
+    "title": "Sesame Chicken",
+    "imageName": "sesamechicken",
+    "details": "Suspendisse molestie ac neque lacinia condimentum. 🍗"
+  },
+  {
+    "title": "Shrimp with Pasta",
+    "imageName": "shrimpwpasta",
+    "details": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 🍤"
+  },
+  {
+    "title": "Smoky Hake",
+    "imageName": "smokyhakebeansgreens",
+    "details": "Duis cursus augue eros, eget congue velit lacinia ut. Pellentesque eget faucibus ante, in volutpat quam. 🎣"
+  },
+  {
+    "title": "Spaghetti Bolognese",
+    "imageName": "spaghettibolognese",
+    "details": "Etiam interdum malesuada felis quis finibus. 🍝"
+  },
+  {
+    "title": "Stuffed Pepper",
+    "imageName": "stuffedpepper",
+    "details": "Vivamus id metus fringilla nibh efficitur ullamcorper id id felis. In laoreet velit quis mi convallis fermentum. 🌶"
+  },
+  {
+    "title": "Sushi",
+    "imageName": "sushi",
+    "details": "Vestibulum hendrerit elit et velit faucibus mattis. Aenean gravida consectetur vehicula. 🍣"
+  },
+  {
+    "title": "Tofu for Vegans",
+    "imageName": "tofuforvegans",
+    "details": "Donec consectetur ligula sit amet risus vulputate, eu dignissim odio tempor. 🍴"
+  }
+]

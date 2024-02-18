@@ -13,6 +13,11 @@
 		9E9DA5902B82896100387CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DA58F2B82896100387CED /* Assets.xcassets */; };
 		9E9DA5932B82896100387CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DA5912B82896100387CED /* LaunchScreen.storyboard */; };
 		9E9DA59B2B82907E00387CED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA59A2B82907E00387CED /* LoginViewController.swift */; };
+		9E9DA59D2B8298DC00387CED /* foodlist.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E9DA59C2B8298DC00387CED /* foodlist.json */; };
+		9E9DA59F2B8298F600387CED /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA59E2B8298F600387CED /* FoodItem.swift */; };
+		9E9DA5A12B82991200387CED /* FoodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5A02B82991200387CED /* FoodManager.swift */; };
+		9E9DA5A32B82996300387CED /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5A22B82996300387CED /* FoodListViewController.swift */; };
+		9E9DA5A72B829AA400387CED /* FoodListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5A62B829AA400387CED /* FoodListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		9E9DA5922B82896100387CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E9DA5942B82896100387CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E9DA59A2B82907E00387CED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9E9DA59C2B8298DC00387CED /* foodlist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = foodlist.json; sourceTree = "<group>"; };
+		9E9DA59E2B8298F600387CED /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		9E9DA5A02B82991200387CED /* FoodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodManager.swift; sourceTree = "<group>"; };
+		9E9DA5A22B82996300387CED /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		9E9DA5A62B829AA400387CED /* FoodListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		9E9DA5852B82896000387CED /* Foody */ = {
 			isa = PBXGroup;
 			children = (
+				9E9DA59C2B8298DC00387CED /* foodlist.json */,
 				9E9DA5862B82896000387CED /* AppDelegate.swift */,
 				9E9DA5882B82896000387CED /* SceneDelegate.swift */,
 				9E9DA58C2B82896000387CED /* Main.storyboard */,
@@ -63,6 +74,10 @@
 				9E9DA5912B82896100387CED /* LaunchScreen.storyboard */,
 				9E9DA5942B82896100387CED /* Info.plist */,
 				9E9DA59A2B82907E00387CED /* LoginViewController.swift */,
+				9E9DA59E2B8298F600387CED /* FoodItem.swift */,
+				9E9DA5A02B82991200387CED /* FoodManager.swift */,
+				9E9DA5A22B82996300387CED /* FoodListViewController.swift */,
+				9E9DA5A62B829AA400387CED /* FoodListCell.swift */,
 			);
 			path = Foody;
 			sourceTree = "<group>";
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9DA5932B82896100387CED /* LaunchScreen.storyboard in Resources */,
+				9E9DA59D2B8298DC00387CED /* foodlist.json in Resources */,
 				9E9DA5902B82896100387CED /* Assets.xcassets in Resources */,
 				9E9DA58E2B82896000387CED /* Main.storyboard in Resources */,
 			);
@@ -138,6 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9DA5A32B82996300387CED /* FoodListViewController.swift in Sources */,
+				9E9DA59F2B8298F600387CED /* FoodItem.swift in Sources */,
+				9E9DA5A72B829AA400387CED /* FoodListCell.swift in Sources */,
+				9E9DA5A12B82991200387CED /* FoodManager.swift in Sources */,
 				9E9DA59B2B82907E00387CED /* LoginViewController.swift in Sources */,
 				9E9DA5872B82896000387CED /* AppDelegate.swift in Sources */,
 				9E9DA5892B82896000387CED /* SceneDelegate.swift in Sources */,
