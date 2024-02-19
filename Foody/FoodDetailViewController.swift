@@ -17,7 +17,7 @@ class FoodDetailViewController: UIViewController {
 
         title = foodItem.title
         detailLabel.text = foodItem.details
-        imageView.image = UIImage(named: foodItem.imageName)
+        imageView.image = foodItem.image
     }
 
     /*

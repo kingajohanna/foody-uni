@@ -19,6 +19,7 @@
 		9E9DA5A32B82996300387CED /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5A22B82996300387CED /* FoodListViewController.swift */; };
 		9E9DA5A72B829AA400387CED /* FoodListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5A62B829AA400387CED /* FoodListCell.swift */; };
 		9E9DA5A92B82A14F00387CED /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5A82B82A14F00387CED /* FoodDetailViewController.swift */; };
+		9E9DA5AB2B834C4200387CED /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DA5AA2B834C4200387CED /* AddFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9E9DA5A22B82996300387CED /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
 		9E9DA5A62B829AA400387CED /* FoodListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListCell.swift; sourceTree = "<group>"; };
 		9E9DA5A82B82A14F00387CED /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		9E9DA5AA2B834C4200387CED /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9E9DA5A22B82996300387CED /* FoodListViewController.swift */,
 				9E9DA5A62B829AA400387CED /* FoodListCell.swift */,
 				9E9DA5A82B82A14F00387CED /* FoodDetailViewController.swift */,
+				9E9DA5AA2B834C4200387CED /* AddFoodViewController.swift */,
 			);
 			path = Foody;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				9E9DA59F2B8298F600387CED /* FoodItem.swift in Sources */,
 				9E9DA5A72B829AA400387CED /* FoodListCell.swift in Sources */,
 				9E9DA5A92B82A14F00387CED /* FoodDetailViewController.swift in Sources */,
+				9E9DA5AB2B834C4200387CED /* AddFoodViewController.swift in Sources */,
 				9E9DA5A12B82991200387CED /* FoodManager.swift in Sources */,
 				9E9DA59B2B82907E00387CED /* LoginViewController.swift in Sources */,
 				9E9DA5872B82896000387CED /* AppDelegate.swift in Sources */,
