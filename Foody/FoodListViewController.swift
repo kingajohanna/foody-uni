@@ -25,6 +25,17 @@ class FoodListViewController: UICollectionViewController {
     
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard segue.identifier == "FoodDetailSegue",
+            let detailVC = segue.destination as? FoodDetailViewController,
+            let cell = sender as? UICollectionViewCell,
+            let indexPath = self.collectionView?.indexPath(for: cell) else {
+                return
+        }
+        
+        detailVC.foodItem = FoodManager.shared.foods[indexPath.row]
+    }
 }
 
 extension FoodListViewController: UICollectionViewDelegateFlowLayout {
